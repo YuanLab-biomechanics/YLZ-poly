@@ -15,8 +15,8 @@
     -   ovito
 
 ## Running of the LAMMPS simulation
-- Make sure that you have the `*.in` and `readdate.` files in the same directory
-> If you have already created a model in a `*.in` file, you don't need to read the `*.dat` file.
+- Make sure that you have the `*.in` and `read_date.*` files in the same directory
+> If you have already created a model in a `*.in` file, you don't need to read the `read_date.*` file.
 - Execute the simulation using MPI: -in in.*`
   ```bash
   mpirun -np <number_of_cores> lmp_mpi -in in.flat_membrane
